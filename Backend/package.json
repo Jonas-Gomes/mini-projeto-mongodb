@@ -1,0 +1,26 @@
+{
+  "name": "mini-projeto-mongo",
+  "version": "1.0.0",
+  "description": "mini projeto pára disciplina de banco de dados 2",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jonas Gomes",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^4.3.0",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.6.3",
+    "pg": "^8.5.1",
+    "redis": "^3.0.2" ,
+    "express": "^4.17.1",
+    "express-promise-router": "^4.0.1",
+   
+  }
+}
