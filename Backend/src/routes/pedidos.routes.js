@@ -5,10 +5,10 @@ const pedidos = require('../controllers/pedidos.controller');
 // Create
 router.post('/pedidos/:id', pedidos.criarpedido);
 
-// Read
+// Pedidos de cleinte especifico
 router.get('/pedidos/:id', pedidos.listapedidosdecliente)
 
-//Delete
+// Pedidos de um produto
 router.get('/pedidosproduto/:id', pedidos.listapedidosdeproduto)
 
 
